@@ -1,10 +1,10 @@
--- Create the database if it doesn't exist
+-- Create the database if it doesn't exist: 
 CREATE DATABASE IF NOT EXISTS easy_living;
 
--- Use the created database
+-- Use the created database: 
 USE easy_living;
 
--- Create the users table with the role column
+-- Create the users table with the role column: 
 CREATE TABLE IF NOT EXISTS users (
     id INT AUTO_INCREMENT PRIMARY KEY,
     full_name VARCHAR(255) NOT NULL,
